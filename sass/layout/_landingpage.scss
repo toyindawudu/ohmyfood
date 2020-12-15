@@ -1,0 +1,43 @@
+.location {
+  background-color: $darkgrey;
+  max-width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.125rem;
+  // padding: 0.875rem 0;
+
+  i {
+    margin-right: 1rem;
+  }
+}
+
+.introduction {
+  height: 290px;
+  // border: 2px solid red;
+  text-align: center;
+  background-color: #f6f6f6;
+
+  &__title {
+    padding-top: 2.625rem;
+    font-size: 1.5rem;
+  }
+
+  &__text {
+    font-size: $font-lrg;
+    width:300px;
+    font-weight: 100;
+    margin: 0 auto;
+    padding-top: 3.125rem;
+  }
+
+  button {
+    // width: 200px;
+    margin: 2.125rem auto 3.5rem ;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, $secondarycolour .2%, $primarycolour 90%);
+    color: #fff;
+    border-color: none;
+  }
+}
