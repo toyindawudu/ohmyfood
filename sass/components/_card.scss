@@ -1,0 +1,36 @@
+.restaurant-container {
+  background: #f2f2f2;
+}
+.restaurant-item {
+  width: 330px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+
+  &__title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    &--text {
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+    i {
+      padding: 0 2rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__description {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  
+}

@@ -26,7 +26,13 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
   margin: 0;
   padding: 0;
 }
@@ -191,5 +197,50 @@ header img {
 
 .restaurant-title {
   padding-top: 4rem;
+  background: #f2f2f2;
+}
+
+.restaurant-container {
+  background: #f2f2f2;
+}
+
+.restaurant-item {
+  width: 330px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.restaurant-item__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.restaurant-item__title--text {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.restaurant-item__title i {
+  padding: 0 2rem;
+}
+
+.restaurant-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.restaurant-item__description {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */
