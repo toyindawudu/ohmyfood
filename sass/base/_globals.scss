@@ -28,3 +28,31 @@ h5 {
   margin: 0;
   padding: 0;
 }
+
+// Spacing
+
+.main-padding {
+  padding: 0 2rem;
+}
+
+// Flexbox
+
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-jc-sa {
+    justify-content: space-around;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}

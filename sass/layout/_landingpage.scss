@@ -32,12 +32,71 @@
   }
 
   button {
-    // width: 200px;
-    margin: 2.125rem auto 3.5rem ;
-    padding: 1rem 3rem;
+    margin: 2.125rem auto 3.5rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     background: linear-gradient(45deg, $secondarycolour .2%, $primarycolour 90%);
     color: #fff;
-    border-color: none;
+    border: none;
   }
+}
+
+.steps {
+
+  &__title {
+    padding-top: 50px;
+    padding-bottom: 2rem;
+  }
+  
+  &__option {
+    position: relative;
+    width: 95%;
+    height: 72px;
+    font-weight: 600;
+    background-color: #f6f6f6;
+    margin: 0 auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    &:last-child {
+      margin-bottom: 4rem;
+    }
+    
+  }
+
+  .circle-colour {
+    background: #9356DC;
+    padding: 1.2rem 1.2rem;
+    position: absolute;
+    top: 22px;
+    left: -10px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+
+  &__number {
+    color: #fff; 
+  }
+
+  &__icon {
+    color: dimgray;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 3rem;
+  }
+
+  &__text {
+    font-size: $font-med;
+  }
+}
+
+.restaurant-title {
+  padding-top: 4rem;
 }

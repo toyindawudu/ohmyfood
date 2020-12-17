@@ -9,5 +9,9 @@ header {
     width: 40%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    @include breakpoint-up(medium){
+      width: 200px;
+    }
   }
 }

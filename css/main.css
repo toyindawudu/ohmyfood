@@ -31,6 +31,39 @@ h5 {
   padding: 0;
 }
 
+.main-padding {
+  padding: 0 2rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 header {
   height: 4.0625rem;
   -webkit-box-shadow: 0px 1px 10px darkgrey;
@@ -44,6 +77,12 @@ header img {
   width: 40%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+@media (min-width: 40em) {
+  header img {
+    width: 200px;
+  }
 }
 
 .location {
@@ -86,10 +125,71 @@ header img {
 
 .introduction button {
   margin: 2.125rem auto 3.5rem;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   border-radius: 2rem;
   background: linear-gradient(45deg, #FF79DA 0.2%, #9356DC 90%);
   color: #fff;
-  border-color: none;
+  border: none;
+}
+
+.steps__title {
+  padding-top: 50px;
+  padding-bottom: 2rem;
+}
+
+.steps__option {
+  position: relative;
+  width: 95%;
+  height: 72px;
+  font-weight: 600;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+}
+
+.steps__option:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.steps__option:last-child {
+  margin-bottom: 4rem;
+}
+
+.steps .circle-colour {
+  background: #9356DC;
+  padding: 1.2rem 1.2rem;
+  position: absolute;
+  top: 22px;
+  left: -10px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.steps__number {
+  color: #fff;
+}
+
+.steps__icon {
+  color: dimgray;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+
+.steps__text {
+  font-size: 1.125rem;
+}
+
+.restaurant-title {
+  padding-top: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
