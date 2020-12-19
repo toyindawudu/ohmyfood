@@ -1,11 +1,47 @@
+figure {
+  position: relative;
+}
+
 .restaurant-container {
   background: #f2f2f2;
+  padding-bottom : 4rem; 
 }
+
+.restaurant{
+
+  &-image-wrapper{
+    // border: 2px solid red;
+  }
+  
+
+  &-new-box {
+    display: inline-block;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    background: #99E2D0;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-weight: 500;
+    font-weight: 900;
+  }
+}
+
+
 .restaurant-item {
   width: 330px;
   margin: 0 auto;
+  object-fit: cover;
   background: #fff;
   border-radius: 20px;
+  margin-bottom: 30px;
+
+  .image-crop {
+    // height: 220px;
+    // object-fit: cover;
+    // object-position: center;
+    // max-height: 220px;
+  }
 
   &__title {
     display: flex;
@@ -19,18 +55,26 @@
 
     i {
       padding: 0 2rem;
+      text-emphasis: stroke;
+      color: transparent;
+      -webkit-text-stroke: 1px black;
+      font-size: 1.6rem;
     }
+
   }
 
   img {
     width: 100%;
     object-fit: cover;
+    max-height: 250px;
   }
 
   &__description {
     padding-top: 5px;
     padding-left: 20px;
     padding-bottom: 20px;
+    font-weight: 100;
   }
   
 }
+

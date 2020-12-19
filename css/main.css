@@ -38,7 +38,7 @@ figure {
 }
 
 .main-padding {
-  padding: 0 2rem;
+  padding: 0 3.5rem;
 }
 
 .flex {
@@ -138,6 +138,10 @@ header img {
   border: none;
 }
 
+.steps {
+  margin: 0rem 1.3rem 1.3rem 1.3rem;
+}
+
 .steps__title {
   padding-top: 50px;
   padding-bottom: 2rem;
@@ -200,15 +204,39 @@ header img {
   background: #f2f2f2;
 }
 
+footer {
+  background: #353535;
+}
+
+figure {
+  position: relative;
+}
+
 .restaurant-container {
   background: #f2f2f2;
+  padding-bottom: 4rem;
+}
+
+.restaurant-new-box {
+  display: inline-block;
+  padding: .5rem 2rem;
+  border-radius: 5px;
+  background: #99E2D0;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-weight: 500;
+  font-weight: 900;
 }
 
 .restaurant-item {
   width: 330px;
   margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
   background: #fff;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .restaurant-item__title {
@@ -230,17 +258,24 @@ header img {
 
 .restaurant-item__title i {
   padding: 0 2rem;
+  -webkit-text-emphasis: stroke;
+          text-emphasis: stroke;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-size: 1.6rem;
 }
 
 .restaurant-item img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  max-height: 250px;
 }
 
 .restaurant-item__description {
   padding-top: 5px;
   padding-left: 20px;
   padding-bottom: 20px;
+  font-weight: 100;
 }
 /*# sourceMappingURL=main.css.map */
