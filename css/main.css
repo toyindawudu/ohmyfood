@@ -74,6 +74,12 @@ header {
   height: 4.0625rem;
   -webkit-box-shadow: 0px 1px 10px darkgrey;
           box-shadow: 0px 1px 10px darkgrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header img {
@@ -89,6 +95,10 @@ header img {
   header img {
     width: 200px;
   }
+}
+
+header .header-back-arrow {
+  padding-left: 12px;
 }
 
 .location {
@@ -206,6 +216,13 @@ header img {
 
 footer {
   background: #353535;
+  color: #fff;
+  padding: 1.7rem 1.5rem;
+  line-height: 27px;
+}
+
+footer .footer-icon {
+  margin-right: 12px;
 }
 
 figure {

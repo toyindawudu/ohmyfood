@@ -9,9 +9,9 @@ figure {
 
 .restaurant{
 
-  &-image-wrapper{
-    // border: 2px solid red;
-  }
+  // &-image-wrapper{
+  //   // border: 2px solid red;
+  // }
   
 
   &-new-box {
@@ -36,12 +36,12 @@ figure {
   border-radius: 20px;
   margin-bottom: 30px;
 
-  .image-crop {
-    // height: 220px;
-    // object-fit: cover;
-    // object-position: center;
-    // max-height: 220px;
-  }
+  // .image-crop {
+  //   // height: 220px;
+  //   // object-fit: cover;
+  //   // object-position: center;
+  //   // max-height: 220px;
+  // }
 
   &__title {
     display: flex;
