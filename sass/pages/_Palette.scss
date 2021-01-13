@@ -56,6 +56,8 @@
     display: flex;
     justify-content: stretch;
 
+    
+
     &:active {
       cursor: pointer;
       position: relative;
@@ -76,14 +78,15 @@
 
     &:hover {
       background-color: #99E2D0;
+      // width: 6rem;
     }
-
 
     h3 {
       font-size: 1.6rem;
     }
   }
 
+  
   &-description {
     display: flex;
     justify-content: space-between;
@@ -96,14 +99,9 @@
     }
   }
 
+  &-content {
+    width: 100%;
+  }
+
 
 }
-
-// .hidden-content {
-//   padding: 0 1.8rem;
-//   width: .51rem;
-//   transition: all .55s;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
