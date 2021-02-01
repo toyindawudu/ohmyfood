@@ -414,11 +414,14 @@ figure {
   padding-left: 18px;
 }
 
-.menu-header-title {
+.menu-header-title > p {
   margin-bottom: 30px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: lighter;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .menu-header-underline {
@@ -492,5 +495,21 @@ figure {
 
 .menu-content {
   width: 100%;
+}
+
+.menu-content-title {
+  font-size: 1.2rem;
+}
+
+.menu-order-btn {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.menu-order-btn > button {
+  padding: 1rem 2rem;
+  color: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
 }
 /*# sourceMappingURL=main.css.map */

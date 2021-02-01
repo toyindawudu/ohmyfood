@@ -28,11 +28,12 @@
     width: 40px;
     padding-left: 18px;
 
-    &-title {
+    &-title > p{
       margin-bottom: 30px;
-      font-size: 1.3rem;
+      font-size: 1rem;
       text-transform:uppercase;
-      font-weight: 100;
+      font-weight: lighter;
+      width: max-content;
     }
 
     &-underline {
@@ -101,7 +102,21 @@
 
   &-content {
     width: 100%;
+
+    &-title {
+      font-size: 1.2rem;
+    }
   }
 
+  &-order-btn {
+    margin: 0 auto;
+    width: 100%;
+
+    > button {
+      padding: 1rem 2rem;
+      color: white;
+      background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    }
+  }
 
 }
